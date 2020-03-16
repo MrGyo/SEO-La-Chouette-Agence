@@ -7,15 +7,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-
 #agency_description { 
     text-align: center;
     color: #575757;
     font-family: arial;
     font-size: 1.6em;
     margin-top: 1%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
 } /* Ajout d'une class pour la description de l'agence */
 
 #testimony_1 { 
@@ -736,7 +735,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
