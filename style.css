@@ -68,6 +68,10 @@ button {
     color: white;
 }
 
+.links {
+    color: white;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -561,7 +565,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: #b8b8b8;
     box-shadow: none;
 }
 
@@ -732,7 +736,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -812,7 +816,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(4, 125, 176, 0.9);
     padding: 40px 40px 40px 40px;
 }
 
@@ -830,20 +834,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #047DB0;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #047DB0;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #066992!important;
     color: #FFFFFF!important;
 }
 
@@ -883,6 +887,7 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+    filter: grayscale(45%);
 } /* Modification du format image de la bannière */
 
 @media (max-width: 1024px) {
