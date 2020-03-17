@@ -24,8 +24,10 @@
   
 </IfModule>
 
-
 <IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteRule ^.*$https://www.mrgyo.github.io/p4/
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} !^www.
+  RewriteRule ^(.*)$ https://www./%%7BHTTP_HOST%7D/$1 [R=301,L]
 </IfModule>
+
+
