@@ -24,5 +24,8 @@
   
 </IfModule>
 
-  RedirectPermanent / https://www.mrgyo.github.io/p4/
 
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^.*$https://www.mrgyo.github.io/p4/
+</IfModule>
