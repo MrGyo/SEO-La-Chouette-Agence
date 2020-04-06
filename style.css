@@ -7,51 +7,163 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* === Gestion des thèmes dark & light acessibilité === */
 
-#bloc-0 {
-    background: #303030;
-    background-image: url(img/texture-paper.png);
-    border-bottom: 2px solid white;
-} /* couleur pour thème sombre */
+/* === Light Mode === */
 
-#bloc-2-services {
-    background: #303030;
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
-} /* couleur pour thème sombre */
-
-#bloc-4-portfolio {
-    background: #303030;
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
-} /* couleur pour thème sombre */
-
-#bloc-7 {
-    background: #303030;
-    border-top: 2px solid white;
-} /* couleur pour thème sombre */
-
-.icon_1 {
-    color: white!important;
-} /* couleur pour thème sombre */
-
-#bloc-8 {
-    border-top: 2px solid white;
-    background: #303030;
-    background-image: url(img/texture-paper.png);
+.dark_mode {
+    color: #575757!important;
 }
 
-#agency_description { 
+.dark_mode:hover {
+    color: black!important;
+}
+
+#bloc-0-light {
+    background: white;
+    border-bottom: 2px solid white;
+} /* couleur pour thème sombre sur le header */
+
+.tc-orange {
+    color: #f3976c!important;
+} /* couleur pour thème sombre sur le h1*/
+
+#agency_description_light { 
+    text-align: center;
+    color: #f3976c;
+    font-family: arial;
+    font-size: 1.6em;
+    margin-top: 5%;
+} /* Ajout d'une class pour la description de l'agence */
+
+/* === Voir ligne 971 pour les boutons, à ne pas déplacer === */
+
+#bloc-2-services-light {
+    background: white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+} /* couleur pour thème sombre pour bandeau service */
+
+.icon_1_light {
+    color: #575757!important;
+} /* couleur pour thème sombre icône bandeau service */
+
+.content_light {
+    color: #575757!important;
+} /* couleur pour thème sombre titres bandeau service */
+
+/* === Voir ligne 886 pour le background opaque 0.8 === */
+
+#bloc-4-portfolio-light {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+} /* couleur pour thème sombre */
+
+#projects_light { 
+    text-align: center;
+    color: #575757;
+    font-family: arial;
+    font-size: 1.6em;
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+} /* Ajout d'une class pour la description de l'agence, h2 de la section projet */
+
+#testimony_1_light { 
+    text-align: center;
+    color: #575757;
+    font-family: arial;
+    font-size: 1.4em;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-style: italic;
+} /* Ajout d'une class pour la description de l'agence, témoignage de la section projet */
+
+#testimony_2_light { 
+    text-align: center;
+    color: #575757;
+    font-family: arial;
+    font-size: 1em;
+    margin-top: -1%;
+    margin-left: 20%;
+    margin-right: 20%;
+} /* Ajout d'une class pour la description de l'agence, témoignage de la section projet */
+
+#bloc-7-light {
+    background: white;
+    border-top: 2px solid white;
+} /* couleur pour thème sombre */
+
+
+#bloc-8-light {
+    border-top: 2px solid #f3976c;
+    background: #f3976c;
+}
+
+/* === Dark Mode === */
+
+.light_mode {
+    color: white!important;
+}
+
+.light_mode:hover {
+    color: #ccc9c9!important;
+}
+
+#bloc-0-dark {
+    background: #303030;
+    background-image: url(img/texture-paper.png);
+    border-bottom: 2px solid white;
+} /* couleur pour thème sombre sur le header */
+
+.tc-white {
+    color: white!important;
+} /* couleur pour thème sombre sur le h1*/
+
+#agency_description_dark { 
+    text-align: center;
+    color: white;
+    font-family: arial;
+    font-size: 1.6em;
+    margin-top: 5%;
+} /* Ajout d'une class pour la description de l'agence */
+
+/* === Voir ligne 971 pour les boutons, à ne pas déplacer === */
+
+#bloc-2-services-dark {
+    background: #303030;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+} /* couleur pour thème sombre pour bandeau service */
+
+.icon_1_dark {
+    color: white!important;
+} /* couleur pour thème sombre icône bandeau service */
+
+.content_dark {
+    color: white!important;
+} /* couleur pour thème sombre titres bandeau service */
+
+/* === Voir ligne 886 pour le background opaque 0.8 === */
+
+#bloc-4-portfolio-dark {
+    background: #303030;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+} /* couleur pour thème sombre */
+
+#projects_dark { 
     text-align: center;
     color: white;
     font-family: arial;
     font-size: 1.6em;
     margin-top: 1%;
-    margin-left: 20%;
-    margin-right: 20%;
-} /* Ajout d'une class pour la description de l'agence */
+    margin-left: 25%;
+    margin-right: 25%;
+} /* Ajout d'une class pour la description de l'agence, h2 de la section projet */
 
-#testimony_1 { 
+#testimony_1_dark { 
     text-align: center;
     color: white;
     font-family: arial;
@@ -60,9 +172,9 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     font-style: italic;
-} /* Ajout d'une class pour la description de l'agence */
+} /* Ajout d'une class pour la description de l'agence, témoignage de la section projet */
 
-#testimony_2 { 
+#testimony_2_dark { 
     text-align: center;
     color: white;
     font-family: arial;
@@ -70,17 +182,21 @@ body {
     margin-top: -1%;
     margin-left: 20%;
     margin-right: 20%;
-} /* Ajout d'une class pour la description de l'agence */
+} /* Ajout d'une class pour la description de l'agence, témoignage de la section projet */
 
-#projects { 
-    text-align: center;
-    color: white;
-    font-family: arial;
-    font-size: 1.6em;
-    margin-top: 1%;
-    margin-left: 25%;
-    margin-right: 25%;
-} /* Ajout d'une class pour la description de l'agence */
+#bloc-7-dark {
+    background: #303030;
+    border-top: 2px solid white;
+} /* couleur pour thème sombre */
+
+
+#bloc-8-dark {
+    border-top: 2px solid white;
+    background: #303030;
+    background-image: url(img/texture-paper.png);
+}
+
+/* === END === */
 
 #contact_p2 {
     margin-top: 5%;
@@ -93,8 +209,8 @@ body {
 }
 
 #speak_design {
-    padding-top: 3.7%;
-    padding-bottom: 3.7%;
+    padding-top: 9.6%;
+    padding-bottom: 9.6%;
 }
 
 a,
@@ -332,7 +448,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: white;
+    color: red;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -354,7 +470,7 @@ a:hover {
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: white!important;
+    color: white;
 }
 
 #nav-toggle {
@@ -452,7 +568,7 @@ a:hover {
 }
 
 .navbar-toggle .icon-bar {
-    background-color: white!important;
+    background-color: grey;
     width: 26px;
 }
 
@@ -552,9 +668,9 @@ nav .caret {
     margin-bottom: 40px;
 }
 
-.btn {
+/*.btn {
     margin: 0 5px 5px 0;
-}
+}*/
 
 .btn.pull-right {
     margin: 0 0 5px 5px;
@@ -822,7 +938,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: white!important;
+    color: white;
 }
 
 .med-width-whitespace {
@@ -845,7 +961,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -868,6 +984,11 @@ h4 {
     padding: 40px 40px 40px 40px;
 }
 
+.orange-background {
+    background-color: rgba(165, 147, 99, 0.7);
+    padding: 40px 40px 40px 40px;
+}
+
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
@@ -885,20 +1006,28 @@ h4 {
     background-color: #303030;
 }
 
-.tc-white {
-    color: white!important;
-}
-
 .btn-atomic-tangerine {
     background: #303030;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     border: 2px solid white;
 } /* couleur pour thème sombre */
 
 .btn-atomic-tangerine:hover {
-    background: #4a4a4a!important;
-    color: #FFFFFF!important;
+    background: #4a4a4a;
+    color: #FFFFFF;
     border: 2px solid white;
+} /* couleur pour thème sombre */
+
+.btn-atomic-tang {
+    background: #f3976c;
+    color: #FFFFFF;
+    border: 2px solid #f3976c;
+} /* couleur pour thème sombre */
+
+.btn-atomic-tang:hover {
+    background: #e58c62;
+    color: #FFFFFF;
+    border: 2px solid #e58c62;
 } /* couleur pour thème sombre */
 
 .ltc-white {
@@ -936,7 +1065,7 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
-    filter: grayscale(45%);
+
 } /* Modification du format image de la bannière */
 
 @media (max-width: 1024px) {
