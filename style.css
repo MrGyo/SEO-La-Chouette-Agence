@@ -12,9 +12,7 @@ body {
 /* === Light Mode === */
 
 .dark_mode {
-    color: #575757!important;
-    padding-right:0!important;
-    padding-left:0!important;
+    color: white!important;
 }
 
 .dark_mode {
@@ -27,7 +25,7 @@ body {
     width: 0; height: 3px;
     display: block;
     left: 0;
-    background: #f3976c;
+    background: white;
     transition: width .5s ease;
     -webkit-transition: width .5s ease;
     -moz-transition: width .5s ease;
@@ -38,12 +36,12 @@ body {
 .dark_mode:hover:after{
     width: 100%;
     left: 0;
-    background: #f3976c;
+    background: white;
 }
 
 #bloc-0-light {
-    background: white;
-    border-bottom: 4px solid #f3976c;
+    background: #f3976c;
+    border-bottom: 4px solid white;
 } /* couleur pour thème sombre sur le header */
 
 .introduction-light {
@@ -65,7 +63,7 @@ body {
 
 /* === Voir ligne 971 pour les boutons, à ne pas déplacer === */
 
-#pratice_light {
+#practice_light {
     color: #f3976c!important;
     text-align: center;
     font-size: 3em;
@@ -148,7 +146,7 @@ body {
 
 
 #bloc-8-light {
-    border-top: 2px solid #f3976c;
+    border-top: 2px solid white;
     background: #f3976c;
 }
 
@@ -156,8 +154,6 @@ body {
 
 .light_mode {
     color: white!important;
-    padding-right:0!important;
-    padding-left:0!important;
 }
 
 .light_mode {
@@ -209,7 +205,7 @@ body {
 
 /* === Voir ligne 971 pour les boutons, à ne pas déplacer === */
 
-#pratice_dark {
+#practice_dark {
     color: white!important;
     text-align: center;
     font-size: 3em;
@@ -675,7 +671,7 @@ a:hover {
 }
 
 .navbar-toggle .icon-bar {
-    background-color: grey;
+    background-color: white;
     width: 26px;
 }
 
@@ -1397,6 +1393,42 @@ h4 {
     #bloc-1-hero h1 {
     font-size: 32px;
     }
+    
+    #help_light {
+    font-size: 1.8em;
+    }  
+    
+    #help_dark {
+    font-size: 1.8em;
+    }
+    
+    #projects_light {
+    font-size: 2.5em;
+    margin-left:5%;
+    margin-right: 5%;
+    }  
+    
+    #projects_dark {
+    font-size: 2.5em;
+    margin-left:5%;
+    margin-right: 5%;
+    } 
+    
+    #practice_light {
+    font-size: 2.5em;
+    }  
+    
+    #practice_dark {
+    font-size: 2.5em;
+    } 
+    
+    #agency_description_light { 
+    font-size: 1.5em;
+    } 
+    
+    #agency_description_dark { 
+    font-size: 1.5em;
+    } 
 
 }
 
@@ -1428,4 +1460,40 @@ h4 {
     #bloc-1-hero h1 {
     font-size: 32px;
     }
+    
+    #help_light {
+    font-size: 1.8em;
+    }  
+    
+    #help_dark {
+    font-size: 1.8em;
+    }
+    
+    #projects_light {
+    font-size: 2.5em;
+    margin-left:5%;
+    margin-right: 5%;
+    }  
+    
+    #projects_dark {
+    font-size: 2.5em;
+    margin-left:5%;
+    margin-right: 5%;
+    } 
+    
+    #practice_light {
+    font-size: 2.5em;
+    }  
+    
+    #practice_dark {
+    font-size: 2.5em;
+    } 
+    
+    #agency_description_light { 
+    font-size: 1.5em;
+    } 
+    
+    #agency_description_dark { 
+    font-size: 1.5em;
+    } 
 }
