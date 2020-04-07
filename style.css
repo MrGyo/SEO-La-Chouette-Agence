@@ -1428,7 +1428,17 @@ h4 {
     
     #agency_description_dark { 
     font-size: 1.5em;
-    } 
+    }
+    
+    #mobile_light {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    
+    #mobile_dark {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 
 }
 
