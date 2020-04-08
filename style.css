@@ -12,7 +12,7 @@ body {
 /* === Light Mode === */
 
 .dark_mode {
-    color: white!important;
+    color: #575757!important;
 }
 
 .dark_mode {
@@ -25,7 +25,7 @@ body {
     width: 0; height: 3px;
     display: block;
     left: 0;
-    background: white;
+    background: #575757;
     transition: width .5s ease;
     -webkit-transition: width .5s ease;
     -moz-transition: width .5s ease;
@@ -36,12 +36,12 @@ body {
 .dark_mode:hover:after{
     width: 100%;
     left: 0;
-    background: white;
+    background: #575757;
 }
 
 #bloc-0-light {
-    background: #f3976c;
-    border-bottom: 4px solid white;
+    background: white;
+    border-bottom: 4px solid #f3976c;
 } /* couleur pour thème sombre sur le header */
 
 .introduction-light {
