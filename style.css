@@ -671,7 +671,7 @@ a:hover {
 }
 
 .navbar-toggle .icon-bar {
-    background-color: white;
+    background-color: grey;
     width: 26px;
 }
 
