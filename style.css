@@ -54,7 +54,7 @@ body {
 
 #agency_description_light { 
     text-align: center;
-    color: #f3976c;
+    color: white;
     font-family: arial;
     font-size: 2em;
     margin-top: 2.5%;
@@ -1128,9 +1128,9 @@ h4 {
 } /* couleur pour thème sombre */
 
 .btn-atomic-tang:hover {
-    background: #e58c62;
+    background: #c27956;
     color: #FFFFFF;
-    border: 2px solid #e58c62;
+    border: 2px solid #c27956;
 } /* couleur pour thème sombre */
 
 .ltc-white {
