@@ -24,7 +24,7 @@ Le lien vers le site à optimiser est disponible [ICI](http://aguillo.activity-n
 
 ## Résultats
 
-* [Site optimisé](https://mrgyo.github.io/p4/)
+* [Site optimisé](https://mrgyo.github.io/SEO-La-Chouette-Agence/)
 * [Rapport de performances](https://github.com/MrGyo/p4/blob/master/reports/GTmetrix-report-new.pdf)
 * [Recommandations SEO](https://github.com/MrGyo/p4/blob/master/reports/SEO_ANALYSE_RECO_20200309.xlsx)
 * [Document de présentation](https://github.com/MrGyo/p4/blob/master/soutenance/SOUTENANCE_P4_WEBDEV_20200316.pptx)
